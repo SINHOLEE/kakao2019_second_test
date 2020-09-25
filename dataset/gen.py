@@ -33,7 +33,7 @@ def gen(pr, count, min_floor, max_floor, seconds, mean, var, func=None):
 
 
 def appeach_mansion():
-    data = gen(pr=[0.33, 0.33, 0.34], count=6, min_floor=1, max_floor=6, seconds=6, mean=1.0, var=1.0)
+    data = gen(pr=[0.33, 0.33, 0.34], count=6, min_floor=1, max_floor=5, seconds=6, mean=1.0, var=1.0)
     print("appeach")
     print(data)
     open('p0.in', 'w').write('\n'.join(data))
